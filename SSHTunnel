@@ -1,0 +1,4 @@
+ssh -vNL vm_port1:vm_ip1:vm_port1 -L vm_port2:vm_ip2:vm_port2 mkm@jump_server
+örnek; ssh -vNL 3000:192.168.122.146:3000 -L 8086:192.168.122.145:8086 mkm@192.168.1.15
+
+Sonra http://127.0.0.1:3000 ve http://127.0.0.1:8086 ile girebilirsin.
